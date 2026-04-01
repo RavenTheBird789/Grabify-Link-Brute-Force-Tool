@@ -8,7 +8,7 @@ Prerequisites:
 * Ensure that the latest version of python is installed in your terminal
 
 Installation:
-* To install, simply type "git clone " in your terminals command line
+* To install, simply type "git clone https://github.com/RavenTheBird789/Grabify-Link-Brute-Force-Tool" in your terminals command line
 
 Execution of software:
 * To run the program, simply type "python3 gLink_BF_Tool.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias gl="python3 gLink_BF_Tool.py")
