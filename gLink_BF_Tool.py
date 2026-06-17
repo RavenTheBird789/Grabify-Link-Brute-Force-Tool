@@ -36,7 +36,7 @@ def brute_force(x):
         y += 1
         for _ in range(6):
             link_val += random.choice(alphanumeric)
-            req = f"https://grabify.link/track/{link_val}"
+            req = f"{base_url}{link_val}"
         print(green(f"{y}. {req}"))
         link_val = ""
 
