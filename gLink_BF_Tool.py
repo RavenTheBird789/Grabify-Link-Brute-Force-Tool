@@ -18,16 +18,21 @@ def red(text: str) -> str:
 equalSign = "="
 emptySpace = "     "
 
-print(green(equalSign * 30))
-print(green(bold("Grabify Link Brute Force Tool")))
-print(green(equalSign * 30))
-print(red(emptySpace + "By: RavenTheBird789"))
-print(green(equalSign * 30))
+def trademark(bf_func):
+    def wrapper(args):
+        print(green(equalSign * 30))
+        print(green(bold("Grabify Link Brute Force Tool")))
+        print(green(equalSign * 30))
+        print(red(emptySpace + "By: RavenTheBird789"))
+        print(green(equalSign * 30))
+        bf_func(args)
+    return wrapper
 
 base_url = "https://grabify.link/track/"
 
 alphanumeric = list(string.ascii_uppercase) + [str(n) for n in range(10)]
 
+@trademark
 def brute_force(x):
     print(green("Potential Grabify Links (Note: Many links are likely false positives): "))
     y = 0
