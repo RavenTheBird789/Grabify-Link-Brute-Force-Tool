@@ -1,6 +1,7 @@
 # Grabify Link Brute Force Tool
 
 import random
+import requests
 import string
 
 def green(text: str) -> str: 
@@ -42,7 +43,13 @@ def brute_force(x):
         for _ in range(6):
             link_val += random.choice(alphanumeric)
             req = f"{base_url}{link_val}"
-        print(green(f"{y}. {req}"))
+        response = requests.get(req)
+        if response.status_code == 200:
+            print(green(f"{y}. {req} Success: {response}"))
+        elif response.status_code == 404:
+            print(red(f"{y}. {req} Error: {response}"))
+        else:
+            print(red(f"{y}. {req} Error: {response}"))
         link_val = ""
 
 Uques = int(input(green(bold("How many grabify links would you like to try for?: "))));
