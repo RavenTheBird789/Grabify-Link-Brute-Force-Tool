@@ -16,6 +16,10 @@ def red(text: str) -> str:
     # Wrap text in ANSI codes for red color
     return f"\033[91m{text}\033[0m"
 
+def yellow(text: str) -> str:
+    # Wrap text in ANSI codes for yellow color
+    return f"\033[93m{text}\033[0m"
+
 equalSign = "="
 emptySpace = "     "
 
@@ -49,7 +53,7 @@ def brute_force(x):
         elif response.status_code == 404:
             print(red(f"{y}. {req} Error: {response}"))
         else:
-            print(red(f"{y}. {req} Error: {response}"))
+            print(yellow(f"{y}. {req} Error: {response}"))
         link_val = ""
 
 Uques = int(input(green(bold("How many grabify links would you like to try for?: "))));
