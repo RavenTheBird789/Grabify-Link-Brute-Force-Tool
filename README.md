@@ -13,5 +13,6 @@ Installation
 Execution of software
 * To run the program, simply type "python3 gLink_BF_Tool.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias gl="python3 gLink_BF_Tool.py")
 
-Note:
+Notes:
 * As stated in the "gLink_BF_Tool.py" file, due to the very nature of brute force algorithms, there's a high chance that many of the links are false positives (404 errors returned to the user due to faulty url endpoint)
+* In the event that the status code of a GET request made with a generated grabify link is neither 200 (successful) or 404 (error) the text generated along with the link will be yellow instead of green (200) or red (404)
