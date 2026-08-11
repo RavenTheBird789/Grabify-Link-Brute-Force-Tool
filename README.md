@@ -3,7 +3,7 @@ Python script for a brute force tool that generates possible endpoints for grabi
 
 ![Alt text](Images/Screenshot_20260811_142656_Termux.jpg)
 ![Alt text](Images/Screenshot_20260811_142454_Termux.jpg)
-![Alt text](ImagesScreenshot_20260811_142130_Chrome.jpg)
+![Alt text](Images/Screenshot_20260811_142130_Chrome.jpg)
 ![Alt text](Images/Screenshot_20260811_142200_Chrome.jpg)
 
 Explanation
