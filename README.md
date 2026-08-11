@@ -1,6 +1,11 @@
 # Grabify-Link-Brute-Force-Tool ❇️
 Python script for a brute force tool that generates possible endpoints for grabify's "track" subdirectory
 
+![Alt text](Images/Screenshot_20260811_142656_Termux.jpg)
+![Alt text](Images/Screenshot_20260811_142454_Termux.jpg)
+![Alt text](ImagesScreenshot_20260811_142130_Chrome.jpg)
+![Alt text](Images/Screenshot_20260811_142200_Chrome.jpg)
+
 Explanation
 * Because Grabify links unassociated with specific users accounts don't require user authentication to view their status, brute force algorithms can be used to guess the alphanumeric endpoints of the "track" subdirectory. This can expose ip addresses of users which can be used maliciously by attackers for various purposes such as DDOS, remote access, MITM attacks, network mapping, etc.
 
