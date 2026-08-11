@@ -2,12 +2,12 @@
 Python script for a brute force tool that generates possible endpoints for grabify's "track" subdirectory
 
 ![Alt text](Images/Screenshot_20260811_142656_Termux.jpg)
-![Alt text](Images/Screenshot_20260811_142454_Termux.jpg)
-![Alt text](Images/Screenshot_20260811_142130_Chrome.jpg)
-![Alt text](Images/Screenshot_20260811_142200_Chrome.jpg)
 
 Explanation
 * Because Grabify links unassociated with specific users accounts don't require user authentication to view their status, brute force algorithms can be used to guess the alphanumeric endpoints of the "track" subdirectory. This can expose ip addresses of users which can be used maliciously by attackers for various purposes such as DDOS, remote access, MITM attacks, network mapping, etc.
+
+![Alt text](Images/Screenshot_20260811_142130_Chrome.jpg)
+![Alt text](Images/Screenshot_20260811_142200_Chrome.jpg)
 
 Prerequisites
 * Ensure that the latest version of python is installed in your terminal
@@ -21,3 +21,5 @@ Execution of software
 Notes:
 * As stated in the "gLink_BF_Tool.py" file, due to the very nature of brute force algorithms, there's a high chance that many of the links are false positives (404 errors returned to the user due to faulty url endpoint)
 * In the event that the status code of a GET request made with a generated grabify link is neither 200 (successful) or 404 (error) the text generated along with the link will be yellow instead of green (200) or red (404)
+
+![Alt text](Images/Screenshot_20260811_142454_Termux.jpg)
