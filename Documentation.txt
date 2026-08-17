@@ -1,6 +1,6 @@
 While I was routinely using the open-source tool Grabify for a cybersecurity lab involving steganography, I happened to notice the rather simple structure of the site's URLs 
 (grabify.link/track/(6-character uppercase alphanumeric endpoint)) and couldn't help but think to myself how easy it would be to write a script to brute force the endpoint 
-of the URL. However, that thought disappeared pretty much as fast as it came due to the fact that I swiftly realized I was logged in to my Grabify account which likely 
+of the URL. However, that thought disappeared pretty much as fast as it came due to the fact that I quickly realized I was logged in to my Grabify account which likely 
 meant that I wouldn't be able to view the status of my generated links without a session cookie or some other form of user authentication/verification. So, you can only imagine 
 how overwhelmed with shock I was when after using both inspect mode to check for a session id and logging out of my Grabify account so I could type out the entire URL of one of 
 my generated links in the search bar on another device swiftly proved me wrong. Shortly after, I found myself wondering just how many people have used Grabify and as an unintended 
