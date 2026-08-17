@@ -21,5 +21,6 @@ Execution of software
 Notes:
 * As stated in the "gLink_BF_Tool.py" file, due to the very nature of brute force algorithms, there's a high chance that many of the links are false positives (404 errors returned to the user due to faulty url endpoint)
 * In the event that the status code of a GET request made with a generated grabify link is neither 200 (successful) or 404 (error) the text generated along with the link will be yellow instead of green (200) or red (404)
+* The documentation detailing the full process of how I identified this vulnerability and successfully exploited it can be found in the "Documentation.txt" file
 
 ![Alt text](Images/Screenshot_20260811_142454_Termux.jpg)
