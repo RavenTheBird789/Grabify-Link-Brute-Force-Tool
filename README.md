@@ -10,7 +10,8 @@ Explanation
 ![Alt text](Images/Screenshot_20260811_142200_Chrome.jpg)
 
 Prerequisites
-* Ensure that the latest version of python is installed in your terminal
+* Ensure that the latest version of python is installed in your terminal (python 3.x)
+* Install the required libraries while in the "Grabify-Link-Brute-Force-Tool" directory (Typically done via "pip install -r requirements.txt")
 
 Installation
 * To install, simply type "git clone https://github.com/RavenTheBird789/Grabify-Link-Brute-Force-Tool" in your terminals command line
