@@ -19,7 +19,7 @@ Installation
 * Execute the command "cd Grabify-Link-Brute-Force-Tool" to enter the directory of this project
 * While in the "Grabify-Link-Brute-Force-Tool" directory execute the command "pip install -r requirements.txt"
 
-Execution of software
+Execution of Software
 * To run the program, simply type "python3 gLink_BF_Tool.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias gl="python3 gLink_BF_Tool.py")
 
 Important Information:
