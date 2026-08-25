@@ -14,10 +14,10 @@ Prerequisites
 * Ensure you have a virtual env for the required python libraries (If you don't, one can easily be created by executing the command "python3 -m venv env")
 
 Installation
-* To install, simply type "git clone https://github.com/RavenTheBird789/Grabify-Link-Brute-Force-Tool" in your terminals command line
-* Execute the command "source env/bin/activate" to activate your virtual env
-* Execute the command "cd Grabify-Link-Brute-Force-Tool" to enter the directory of this project
-* While in the "Grabify-Link-Brute-Force-Tool" directory execute the command "pip install -r requirements.txt"
+1. To install, simply type "git clone https://github.com/RavenTheBird789/Grabify-Link-Brute-Force-Tool" in your terminals command line
+2. Execute the command "source env/bin/activate" to activate your virtual env
+3. Execute the command "cd Grabify-Link-Brute-Force-Tool" to enter the directory of this project
+4. While in the "Grabify-Link-Brute-Force-Tool" directory execute the command "pip install -r requirements.txt"
 
 Execution of Software
 * To run the program, simply type "python3 gLink_BF_Tool.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias gl="python3 gLink_BF_Tool.py")
