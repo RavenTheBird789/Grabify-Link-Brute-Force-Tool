@@ -11,7 +11,7 @@ Explanation
 
 Prerequisites
 * Ensure that the latest version of python is installed in your terminal (python 3.x)
-* Ensure you have a virtual env for the required python libraries (If you don't, one can easily be created by executing the command "python -m venv env")
+* Ensure you have a virtual env for the required python libraries (If you don't, one can easily be created by executing the command "python3 -m venv env")
 
 Installation
 * To install, simply type "git clone https://github.com/RavenTheBird789/Grabify-Link-Brute-Force-Tool" in your terminals command line
