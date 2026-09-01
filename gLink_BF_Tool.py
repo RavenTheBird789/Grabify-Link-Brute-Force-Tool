@@ -21,14 +21,14 @@ def yellow(text: str) -> str:
     return f"\033[93m{text}\033[0m"
 
 equalSign = "="
-emptySpace = "     "
+emptySpace = " "
 
 def trademark(bf_func):
     def wrapper(args):
         print(green(equalSign * 30))
         print(green(bold("Grabify Link Brute Force Tool")))
         print(green(equalSign * 30))
-        print(red(emptySpace + "By: RavenTheBird789"))
+        print(red((emptySpace * 5) + "By: RavenTheBird789"))
         print(green(equalSign * 30))
         bf_func(args)
     return wrapper
