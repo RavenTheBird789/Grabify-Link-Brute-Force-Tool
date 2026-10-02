@@ -1,5 +1,5 @@
 # Grabify-Link-Brute-Force-Tool ❇️
-Python script for a brute force tool that generates possible endpoints for grabify's "track" subdirectory
+Brute force tool that generates possible endpoints for grabify's "track" subdirectory
 
 ![Alt text](Images/Screenshot_20260811_142656_Termux.jpg)
 
