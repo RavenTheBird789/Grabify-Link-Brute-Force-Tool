@@ -1,4 +1,4 @@
-# Grabify-Link-Brute-Force-Tool ❇️
+# Grabify Link Brute Force Tool ❇️
 Brute force tool that generates possible endpoints for grabify's "track" subdirectory
 
 ![Alt text](Images/Screenshot_20260811_142656_Termux.jpg)
