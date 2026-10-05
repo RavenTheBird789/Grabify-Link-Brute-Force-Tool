@@ -9,7 +9,7 @@ Explanation
 ![Alt text](Images/Screenshot_20260811_142130_Chrome.jpg)
 ![Alt text](Images/Screenshot_20260811_142200_Chrome.jpg)
 
-Prerequisites
+Requirements
 * Ensure that the latest version of python is installed in your terminal (python 3.x)
 * Ensure you have a virtual env for the required python libraries (If you don't, one can easily be created by executing the command "python3 -m venv env")
 
