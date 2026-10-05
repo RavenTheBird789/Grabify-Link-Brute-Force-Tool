@@ -9,23 +9,36 @@ Explanation
 ![Alt text](Images/Screenshot_20260811_142130_Chrome.jpg)
 ![Alt text](Images/Screenshot_20260811_142200_Chrome.jpg)
 
-Requirements
+Requirements:
 * Ensure that the latest version of python is installed in your terminal (python 3.x)
 * Ensure you have a virtual env for the required python libraries (If you don't, one can easily be created by executing the command "python3 -m venv env")
 
-Recommendations
+Recommendations:
 * Use a VPN while using this tool (Proton or Mullvad are encouraged)
 * Enable TOR in your terminal
 * Run proxychains4 while executing the software (This comes pre-installed with Kali-Linux)
 
-Installation
-1. To install, simply type "git clone https://github.com/RavenTheBird789/Grabify-Link-Brute-Force-Tool" in your terminals command line
-2. Execute the command "source env/bin/activate" to activate your virtual env
-3. Execute the command "cd Grabify-Link-Brute-Force-Tool" to enter the directory of this project
-4. While in the "Grabify-Link-Brute-Force-Tool" directory execute the command "pip install -r requirements.txt"
+Installation & setup
 
-Execution of Software
-* To run the program, simply type "python3 gLink_BF_Tool.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias gl="python3 gLink_BF_Tool.py")
+```bash
+git clone https://github.com/RavenTheBird789/Grabify-Link-Brute-Force-Tool
+cd Grabify-Link-Brute-Force-Tool
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+To run
+
+```bash
+python3 gLink_BF_Tool.py
+```
+
+Optional shortcut
+
+```bash
+alias gl="python3 gLink_BF_Tool.py")
+```
 
 Important Information:
 * As stated in the [gLink_BF_Tool.py](gLink_BF_Tool.py) file, due to the very nature of brute force algorithms, there's a high chance that many of the links are false positives (404 errors returned to the user due to faulty url endpoint)
