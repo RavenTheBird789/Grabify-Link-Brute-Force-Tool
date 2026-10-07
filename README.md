@@ -11,7 +11,6 @@ Explanation
 
 Requirements:
 * Ensure that the latest version of python is installed in your terminal (python 3.x)
-* Ensure you have a virtual env for the required python libraries (If you don't, one can easily be created by executing the command "python3 -m venv env")
 
 Recommendations:
 * Use a VPN while using this tool (Proton or Mullvad are encouraged)
