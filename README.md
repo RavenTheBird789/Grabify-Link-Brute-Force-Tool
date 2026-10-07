@@ -37,7 +37,7 @@ python3 gLink_BF_Tool.py
 Optional shortcut
 
 ```bash
-alias gl="python3 gLink_BF_Tool.py")
+alias gl="python3 gLink_BF_Tool.py"
 ```
 
 Important Information:
